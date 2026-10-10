@@ -31,7 +31,7 @@ Connect to the address and port configured in the script using a browser or an H
 For example, if the server listens on port `8080`:
 
 ```bash
-curl -v http://127.0.0.1:8080/
+curl -v http://127.0.0.1:8080/file_name.html
 ```
 
 `127.0.0.1` is the loopback address, which refers to the same machine running the client.
