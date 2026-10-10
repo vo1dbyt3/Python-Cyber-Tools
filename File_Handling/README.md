@@ -15,7 +15,7 @@ A Python project focused on file handling and filesystem operations. It explores
 
 * Python 3
 * Built-in file I/O functionality
-* `os` module, if used in the project
+* `os` module
 
 ## Usage
 
@@ -30,13 +30,8 @@ Follow the instructions defined in the script.
 ## What I Learned
 
 * Opening, reading, and writing files.
-* Managing file paths and filesystem operations.
 * Handling exceptions during file operations.
 * Using Python to automate basic tasks.
-
-## Learning Goals
-
-Build a stronger foundation in Python scripting and filesystem automation, with potential applications in cybersecurity tooling.
 
 ## Disclaimer
 
