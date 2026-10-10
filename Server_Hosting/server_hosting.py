@@ -37,7 +37,7 @@ def server_response():
     if askToHost == "1":
         url = f"http://localhost:{port_num}/{file}"
         site = requests.get(url)
-        print(f"Status: {site.status}")
+        print(f"Status: {site.status_code}")
         print(f"Content: {site.text}")
     elif askToHost == "0":
         print("Disconnected from hosting server")
