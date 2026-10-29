@@ -16,6 +16,14 @@ A simple Python-based port scanner built to explore network programming and unde
 * Python 3
 * `socket` module
 
+## Install dependencies
+
+```bash
+pip install termcolor
+```
+
+* if pip doesn't work please run inside a venv (virtual environment)
+
 ## Usage
 
 Run the script:

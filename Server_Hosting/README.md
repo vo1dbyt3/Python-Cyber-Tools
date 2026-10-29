@@ -18,6 +18,14 @@ A small Python project that explores how a local server can communicate with cli
 * `socket` module
 * HTTP fundamentals
 
+## Install dependencies
+
+```bash
+pip install requests
+```
+
+* if pip doesn't work please run inside a venv (virtual environment)
+
 ## Usage
 
 Run the server:

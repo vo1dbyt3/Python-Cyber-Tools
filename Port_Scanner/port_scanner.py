@@ -19,9 +19,8 @@ def port_scanner(port):
     if result == 0:
         print(colored(f"[+] {port}/tcp  open  {service}", "green"))
 
-print()
 
-print(colored(f"  Target: {Target}", "red"))
+print(colored(f"\n  Target: {Target}", "red"))
 print(colored(f"  PORT      STATE  SERVICE", "yellow"))
 
 for port in range(1, 1000):
